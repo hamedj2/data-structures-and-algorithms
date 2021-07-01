@@ -1,0 +1,17 @@
+Hamed-Jalali 3110 Programming assignment 1
+
+1) main.cpp and rapidcvs.h in /data 
+2) I used <"rapidcsv.h"> for " and delimiter problem  and to fix it , <time.h> for clock_t and clock() to track the execution time
+    <fstream> for import, export to use the csv file, <vector> to use class vector, <string> to use character string class type
+3) when execute the a.out file -> a menu with 5 sorting option and an exit option (because of insertion sort, it's not a loop)
+4) you can choose the sorting algorithm 
+5) outputs will be =>   1) number of samples (lines)
+                        2) the execution time for the sorting algorithm in seconds
+                        3) an output CSV file based on the sorting algorithm (output_sortname.csv)
+6) the execution times ( 4 times ):
+        insertion sort => 1) 2629.654365 sec   2) 2605.727259 sec   3) 2544.465188  4) 2669.192344
+        merge sort  => 1) 4.915625  2) 4.630560 sec  3) 5.114631   4) 4.997885
+        quick sort => 1) 1.277573  2) 1.251915 sec  3) 1.521594    4) 1.273717            
+        quick sort hybrid => 1) 1.194951  2) 1.172866 sec   3) 1.219706   4) 1.195965 
+        heap sort => 1) 1.579726  2) 1.568041 sec   3) 1.652544     4) 1.654187
+7) screenshots for the execution times :  https://www.dropbox.com/sh/4zabgp16gf34m49/AABRFmNuYxfWFXdcUM9KdF7oa?dl=0       
